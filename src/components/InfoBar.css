@@ -1,0 +1,70 @@
+.info-bar {
+    display: block;
+    border: 1px solid #333333;
+
+    margin: auto;
+    height: auto;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+
+    justify-content: center;
+    max-width: 90vw;
+}
+
+.big {
+    display: inline-block;
+    width: 10vw;
+    height: 10vw;
+
+    position: relative;
+
+    top:10px; left:10px;
+
+    font-size: 1vw;
+
+    box-shadow: 0 0px 0px;
+    
+}
+
+.number-big {
+    text-align: left;
+    font-size: 2vw;
+    position: absolute;
+}
+
+.symbol-big {
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 5vw;
+    
+    margin-top: 1vw;
+
+}
+
+/* Element info */
+.element-info {
+    text-align: center;
+    margin-left: 15vw;
+    margin-top: -10vw;
+
+    flex: 1;
+    font-size: 1.5vw;
+
+    outline: 1px solid;
+}
+
+.element-name {
+    font-weight: bold;
+    font-size: 3vw;
+
+    text-decoration: underline;
+}
+
+.element-desc {
+    text-align: left;
+}

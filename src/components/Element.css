@@ -1,0 +1,94 @@
+.component-element {
+    cursor: pointer;
+    width: 5vw;
+    height: 5vw;
+
+    max-width: 50px;
+    max-height: 50px;
+  
+    border: 1px solid #333333;
+    border-collapse: collapse;
+    overflow: hidden;
+
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.component-element:hover {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(203,203,203,1) 100%);
+
+}
+
+.number {
+    text-align: left;
+    font-size: 1vw;
+    position: absolute;
+    
+}
+
+.symbol {
+
+    text-align: center;
+
+    font-weight: bold;
+    /* font-size: 2.5vw; */
+    width: 5vw;
+    height: 5vw;
+
+    max-width: 50px;
+    max-height: 50px;
+  
+    border: 1px solid #333333;
+
+}
+
+.element-2 {
+    grid-column-start: 18;
+}
+
+.element-5, .element-13 {
+    grid-column-start: 13;
+}
+
+/* Categories */
+.diatomic {
+    background: linear-gradient(90deg, rgba(0,177,255,1) 0%, rgba(0,121,233,1) 100%);
+}
+
+.alkali {
+    background: linear-gradient(90deg, rgba(245,0,255,1) 0%, rgba(209,0,195,1) 100%);
+}
+
+.alkaline {
+    background: linear-gradient(90deg, rgba(255,116,0,1) 0%, rgba(226,96,0,1) 100%);
+}
+
+.metalloid {
+    background: linear-gradient(90deg, rgba(0,199,2,1) 0%, rgba(0,173,14,1) 100%);
+
+}
+
+.polyatomic {
+    background: linear-gradient(90deg, rgba(193,193,193,1) 0%, rgba(156,156,156,1) 100%);
+}
+
+.noble {
+    background: linear-gradient(90deg, rgba(245,255,0,1) 0%, rgba(212,203,0,1) 100%);
+}
+
+.transition {
+    background: linear-gradient(90deg, rgba(0,245,255,1) 0%, rgba(0,204,212,1) 100%);
+}
+
+.post-transition {
+    background: linear-gradient(90deg, rgba(24,255,0,1) 0%, rgba(0,212,37,1) 100%);
+}
+
+.lanthanide, .short57-71 {
+    background: linear-gradient(90deg, rgba(189,255,0,1) 0%, rgba(164,212,0,1) 100%);
+
+}
+
+.actinide, .short89-103 {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(212,0,0,1) 100%);
+}
