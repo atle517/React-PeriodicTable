@@ -30,9 +30,7 @@ export class InfoBar extends Component {
                 </div>
             )
         } else {
-            return <div className="info-bar">
-
-            </div>
+            return <div> </div>
         }
     }
 }
