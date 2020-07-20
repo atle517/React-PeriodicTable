@@ -29,8 +29,8 @@ export class Element extends Component {
 
             return (
                 <div className={`component-element element-${element.number} ${element.category}`} onMouseOver={() => this.props.handler(element)}>
-                    <p className="number">{element.number}</p>
-                    <p className="symbol">{element.symbol}</p>
+                    <div className="number">{element.number}</div>
+                    <div className="symbol">{element.symbol}</div>
                 </div>
             )
         } else {

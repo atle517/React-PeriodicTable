@@ -7,11 +7,13 @@
     max-height: 50px;
   
     border: 1px solid #333333;
-    border-collapse: collapse;
     overflow: hidden;
 
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
+    display: flex;
+    align-items: center;
 }
 
 .component-element:hover {
@@ -21,9 +23,11 @@
 
 .number {
     text-align: left;
-    font-size: 1vw;
+    font-size:calc(4px + .4vw);
     position: absolute;
-    
+
+    left: 0.1vw;
+    top: 0vw;
 }
 
 .symbol {
@@ -31,14 +35,10 @@
     text-align: center;
 
     font-weight: bold;
-    /* font-size: 2.5vw; */
-    width: 5vw;
-    height: 5vw;
+    font-size:calc(8px + 0.8vw);
 
-    max-width: 50px;
-    max-height: 50px;
-  
-    border: 1px solid #333333;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 

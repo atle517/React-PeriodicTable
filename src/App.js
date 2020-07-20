@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Element from './components/Element';
 import InfoBar from './components/InfoBar';
@@ -41,7 +40,7 @@ class App extends React.Component {
     return (
       <div className="wrapper">
 
-        <h1 style={{ textAlign: 'center' }}>Periodic Table</h1>
+        <h1>Periodic Table</h1>
 
         <div className="table-elements">
 

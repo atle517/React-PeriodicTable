@@ -10,19 +10,22 @@ export class InfoBar extends Component {
 
             return (
                 <div className="info-bar">
-                    <div className="symbol-info-container">
+
+                    <div className="element-short-info-container">
                         {/* Show element box */}
                         <div className={`component-element big ${element.category}`}>
                             <div className="number-big">{element.number}</div>
                             <div className="symbol-big">{element.symbol}</div>
                         </div>
+
+                        <div className="element-mass">Mass: {element.atomic_mass}u</div>
+                        <div className="element-electron">Category: {element.category}</div>
                     </div>
 
                     {/* Element name */}
-                    <div className="element-info">
+                    <div className="element-info-container">
                         <div className="element-name">{element.name}</div>
                         <div className="element-desc">{element.summary}</div>
-                        <div className="mass">{element.atomic_mass}u</div>
                     </div>
                 </div>
             )

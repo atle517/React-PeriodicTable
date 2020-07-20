@@ -3,32 +3,39 @@
     box-sizing: border-box;
   }
 
+  h1 {
+    font-size: 2vw;
+    text-align: center;
+  }
   
   .wrapper {
     width: 90%;
-    margin: 0 auto;
+    
+    margin-left: auto;
+    margin-right: auto;
     
     max-width: 900px;
 
-    outline: 1px solid;
+    /* outline: 1px solid; */
+
+    
   }
 
   .table-elements {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: repeat(17, auto) 1fr;
-
-    justify-content: center;
-    position: relative;
-
     
-
   }
 
   .table-elements-extra {
     display: grid;
     grid-template-columns: repeat(14, auto) 1fr;
 
-    padding-top: 3vw;
-    padding-left: 6vw;
+    padding-top: 5%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
   }
 
